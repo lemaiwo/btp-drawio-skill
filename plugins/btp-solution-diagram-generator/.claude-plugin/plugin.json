@@ -1,0 +1,21 @@
+{
+  "name": "btp-solution-diagram-generator",
+  "version": "0.1.0",
+  "description": "Generate, edit, and validate SAP BTP solution diagrams as draw.io (.drawio) files, following the official SAP BTP Solution Diagram Guidelines (Fiori Horizon palette, area/layer conventions, connector semantics, L0-L3 levels). Bundles the full SAP BTP service icon library.",
+  "author": {
+    "name": "Wouter Lemaire",
+    "github": "lemaiwo"
+  },
+  "homepage": "https://github.com/lemaiwo/btp-drawio-skill",
+  "repository": "https://github.com/lemaiwo/btp-drawio-skill",
+  "license": "MIT",
+  "keywords": [
+    "sap",
+    "btp",
+    "drawio",
+    "diagram",
+    "architecture",
+    "solution-diagram",
+    "fiori-horizon"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "btp-drawio-skill",
+  "owner": {
+    "name": "Wouter Lemaire",
+    "github": "lemaiwo"
+  },
+  "description": "Marketplace for the BTP Solution Diagram Generator — a Claude skill that authors SAP BTP solution diagrams as draw.io files, following the official SAP guidelines.",
+  "version": "0.1.0",
+  "repository": "https://github.com/lemaiwo/btp-drawio-skill",
+  "plugins": [
+    {
+      "name": "btp-solution-diagram-generator",
+      "source": "./plugins/btp-solution-diagram-generator",
+      "description": "Generate, edit, and validate SAP BTP solution diagrams (.drawio) following SAP Fiori Horizon guidelines — complete with the official BTP icon library bundled.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Wouter Lemaire",
+        "github": "lemaiwo"
+      },
+      "category": "productivity",
+      "keywords": [
+        "sap",
+        "btp",
+        "drawio",
+        "diagram",
+        "architecture",
+        "solution-diagram",
+        "fiori-horizon"
+      ]
+    }
+  ]
+}

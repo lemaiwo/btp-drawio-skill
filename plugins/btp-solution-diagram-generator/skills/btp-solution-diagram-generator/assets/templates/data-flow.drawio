@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="cowork-btp-skill" modified="2026-04-17T11:52:57Z" version="27.0.0">
+  <diagram id="p1" name="BTP Data Flow (Starter)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t-title" value="BTP Data Flow (Starter) - BTP Data Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0070F2;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="20" width="900" height="30" as="geometry" /></mxCell>
+        <mxCell id="t-desc" value="Starter data-flow. Left = source, middle = BTP, right = target. Solid arrow = sync, dashed = async." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#556B82;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="50" width="900" height="40" as="geometry" /></mxCell>
+        <mxCell id="t-level" value="Diagram Level: L2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1D2D3E;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="90" width="300" height="24" as="geometry" /></mxCell>
+        <mxCell id="a-src" value="Source System" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#475E75;fillColor=#F5F6F7;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="50" y="160" width="300" height="380" as="geometry" /></mxCell>
+        <mxCell id="a-btp" value="SAP BTP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="420" y="160" width="340" height="380" as="geometry" /></mxCell>
+        <mxCell id="a-tgt" value="Target System" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#475E75;fillColor=#F5F6F7;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="830" y="160" width="300" height="380" as="geometry" /></mxCell>
+        <mxCell id="flow-1" value="extract" style="endArrow=blockThin;html=1;strokeColor=#475E75;strokeWidth=1.5;rounded=0;endFill=1;endSize=4;fontSize=10;fontColor=#1D2D3E;" edge="1" source="a-src" target="a-btp" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="flow-2" value="publish (async)" style="endArrow=blockThin;html=1;strokeColor=#475E75;strokeWidth=1.5;rounded=0;endFill=1;endSize=4;dashed=1;fontSize=10;fontColor=#1D2D3E;" edge="1" source="a-btp" target="a-tgt" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

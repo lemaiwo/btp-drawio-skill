@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="cowork-btp-skill" modified="2026-04-17T11:52:57Z" version="27.0.0">
+  <diagram id="p1" name="SAP BTP Solution (Starter)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t-title" value="SAP BTP Solution (Starter) - SAP BTP Solution Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#0070F2;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="20" width="800" height="30" as="geometry" /></mxCell>
+        <mxCell id="t-desc" value="Starter L2 solution diagram. Replace this description. Drag BTP service icons from the imported library into the BTP subaccount area." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#556B82;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="50" width="800" height="40" as="geometry" /></mxCell>
+        <mxCell id="t-level" value="Diagram Level: L2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1D2D3E;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="30" y="90" width="300" height="24" as="geometry" /></mxCell>
+        <mxCell id="a-btp" value="SAP BTP Subaccount" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="130" width="642" height="595" as="geometry" /></mxCell>
+        <mxCell id="a-runtime" value="Cloud Foundry Runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#FFFFFF;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=12;fontStyle=1;verticalAlign=top;" vertex="1" parent="a-btp"><mxGeometry x="30" y="50" width="582" height="238" as="geometry" /></mxCell>
+        <mxCell id="a-btp-note" value="[drag SAP BTP service icons here — see references/btp-icons.md]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#556B82;fontFamily=Helvetica;" vertex="1" parent="a-btp"><mxGeometry x="30" y="308" width="582" height="40" as="geometry" /></mxCell>
+        <mxCell id="a-nonsap" value="Non-SAP Systems" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#475E75;fillColor=#F5F6F7;strokeWidth=1.5;arcSize=16;absoluteArcSize=1;fontColor=#1D2D3E;fontFamily=Helvetica;fontSize=14;fontStyle=1;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="722" y="130" width="407" height="289" as="geometry" /></mxCell>
+        <mxCell id="a-nonsap-note" value="[external IdP / 3rd-party apps]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=12;fontColor=#556B82;fontFamily=Helvetica;" vertex="1" parent="a-nonsap"><mxGeometry x="20" y="40" width="367" height="30" as="geometry" /></mxCell>
+        <mxCell id="leg-box" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#eaecee;strokeWidth=1.5;fillColor=#FFFFFF;arcSize=16;absoluteArcSize=1;" vertex="1" parent="1"><mxGeometry x="899" y="20" width="240" height="110" as="geometry" /></mxCell>
+        <mxCell id="leg-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontStyle=1;fontColor=#1D2D3E;fontFamily=Helvetica;align=left;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="909" y="25" width="60" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-dot-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#475E75;" vertex="1" parent="1"><mxGeometry x="913" y="48" width="12" height="12" as="geometry" /></mxCell>
+        <mxCell id="leg-lab-0" value="Access" style="text;html=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#1D2D3E;fontFamily=Helvetica;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="933" y="44" width="140" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-dot-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#188918;" vertex="1" parent="1"><mxGeometry x="913" y="66" width="12" height="12" as="geometry" /></mxCell>
+        <mxCell id="leg-lab-1" value="Authentication" style="text;html=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#1D2D3E;fontFamily=Helvetica;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="933" y="62" width="140" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-dot-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#5D36FF;" vertex="1" parent="1"><mxGeometry x="913" y="84" width="12" height="12" as="geometry" /></mxCell>
+        <mxCell id="leg-lab-2" value="Authorization" style="text;html=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#1D2D3E;fontFamily=Helvetica;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="933" y="80" width="140" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-dot-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#CC00DC;" vertex="1" parent="1"><mxGeometry x="913" y="102" width="12" height="12" as="geometry" /></mxCell>
+        <mxCell id="leg-lab-3" value="Trust" style="text;html=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#1D2D3E;fontFamily=Helvetica;align=left;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="933" y="98" width="140" height="20" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
